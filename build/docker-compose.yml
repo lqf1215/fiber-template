@@ -1,0 +1,16 @@
+# Use postgres/example user/password credentials
+version: '3.1'
+
+services:
+  fiber-template:
+    image: postgres
+    container_name: fiber-template-db
+    restart: always
+    ports:
+      - 5434:5432
+    environment:
+      POSTGRES_PASSWORD: fiber-template2025&@#qwe
+      POSTGRES_DB: fiber-template
+      POSTGRES_USER: admin
+#    volumes:
+#      - /root/dbdata/fiber-template:/var/lib/postgresql/data

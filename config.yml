@@ -1,0 +1,15 @@
+db:
+  host: localhost
+  port: 5434
+  user: admin
+  password: fiber-template2025&@#qwe
+  name: fiber-template
+
+port: 8330
+
+aws:
+  endpoint-url: https://s3.ap-southeast-3.qiniucs.com
+  region:
+  access-key-id:
+  secret-access-key:
+  bucket: solana-dapp
